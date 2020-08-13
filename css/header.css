@@ -4,7 +4,7 @@
 }
 
     .pageHeader__headerTop {
-        height: 15vh;
+        height: 125px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -58,7 +58,7 @@
 
     .pageHeader__headerBottom {
         background-color: rgb(255, 255, 255);
-        height: 5vh;
+        height: 45px;
         display: flex;
         justify-content: center;
     } 
