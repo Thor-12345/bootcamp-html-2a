@@ -59,10 +59,9 @@
     .pageHeader__headerBottom {
         background-color: rgb(255, 255, 255);
         height: 5vh;
-
         display: flex;
         justify-content: center;
-    }
+    } 
 
         .headerBottom__headerNavigation {
             width: 400px;
