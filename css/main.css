@@ -1,0 +1,10 @@
+.mainWrapper {
+    padding: 0 12%;
+}
+
+    .mainWrapper__advertisement {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
