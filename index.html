@@ -20,6 +20,22 @@
 				<i class="fas fa-search foldingMenu__search"></i>
 			</article>
 
+			<!-- Sidebar sliding menu -->
+			<aside class="headerTop__sidebar">
+				<a class="sidebar__link link--hoverJump" href="#">Køb abonnement</a>
+				<a class="sidebar__link link--hoverJump" href="#">Dagens avis</a>
+				<a class="sidebar__link link--hoverJump" href="#">Information Miniature</a>
+				<a class="sidebar__link link--hoverJump" href="#">Information Klima</a>
+				<a class="sidebar__link link--hoverJump" href="#">Avisarkiv</a>
+				<a class="sidebar__link link--hoverJump" href="#">Podcast</a>
+				<a class="sidebar__link link--hoverJump" href="#">Nyhedsbreve</a>
+				<a class="sidebar__link link--hoverJump" href="#">Serier</a>
+				<a class="sidebar__link link--hoverJump" href="#">Butikken</a>
+				<a class="sidebar__link link--hoverJump" href="#">Apps</a>
+				<a class="sidebar__link link--hoverJump" href="#">Kontakt</a>
+				<i class="fas fa-times sidebar__closingBtn"></i>
+			</aside>
+
 			<article class="headerTop__banner">
 				<svg class="s-h__logo--svg" width="468.72" height="80" viewBox="0 0 460 79"
 					xmlns="http://www.w3.org/2000/svg">
@@ -119,6 +135,17 @@
 
 	</footer>
 
+	<script>
+		document.querySelector('.foldingMenu__menu').addEventListener('click', function(){
+			document.querySelector('.headerTop__sidebar').style.cssText = "transform: translateX(0)";
+			document.querySelector('.sidebar__closingBtn').style.cssText = "opacity: 1";
+		})
+
+		document.querySelector('.sidebar__closingBtn').addEventListener('click', function(){
+			document.querySelector('.headerTop__sidebar').style.cssText = "transform: translateX(-100%)";
+			document.querySelector('.sidebar__closingBtn').style.cssText = "opacity: 0";
+		})
+	</script>
 </body>
 
 </html>
