@@ -1,0 +1,25 @@
+
+.mainWrapper__commentSectionWrapper {
+    display: flex;
+}
+
+    .commentSectionWrapper__headingLeft {
+        width: 28%;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--red);
+        border-bottom: 1px dotted #000;
+        margin-right: 2%;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }
+
+    .commentSectionWrapper__headingRight {
+        width: 70%;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: var(--red);
+        border-bottom: 1px dotted #000;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+    }

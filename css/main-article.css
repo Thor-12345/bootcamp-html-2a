@@ -1,7 +1,9 @@
 .mainWrapper {
     display: flex;
     flex-direction: column;
-    padding: 0 12%;
+    max-width: 960px;
+    margin: 0 auto;
+    /* padding: 0 12%; */
 }
 
     .mainWrapper__advertisement {
